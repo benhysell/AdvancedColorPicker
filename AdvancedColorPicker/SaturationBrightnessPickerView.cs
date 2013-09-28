@@ -37,9 +37,9 @@ namespace AdvancedColorPicker
 		{
 		}
 
-		public float hue { get; set; }
-		public float saturation { get; set; }
-		public float brightness { get; set; }
+		public float Hue { get; set; }
+		public float Saturation { get; set; }
+		public float Brightness { get; set; }
 
 		public override void Draw (RectangleF rect)
 		{
@@ -50,7 +50,7 @@ namespace AdvancedColorPicker
 
 			CGContext context = UIGraphics.GetCurrentContext ();
 
-			CGColor[] gradColors = new CGColor[] {UIColor.FromHSBA(hue,1,1,1).CGColor,new CGColor(1,1,1,1)};
+			CGColor[] gradColors = new CGColor[] {UIColor.FromHSBA(Hue,1,1,1).CGColor,new CGColor(1,1,1,1)};
 			float[] gradLocations = new float[] { 0.0f, 1.0f };
 
 			var colorSpace = CGColorSpace.CreateDeviceRGB ();
@@ -92,18 +92,18 @@ namespace AdvancedColorPicker
 			float h = Frame.Size.Height;
 			
 			if (pos.X < 0)
-				saturation = 0;
+				Saturation = 0;
 			else if (pos.X > w)
-				saturation = 1;
+				Saturation = 1;
 			else
-				saturation = pos.X / w;
+				Saturation = pos.X / w;
 			
 			if (pos.Y < 0)
-				brightness = 1;
+				Brightness = 1;
 			else if (pos.Y > h)
-				brightness = 0;
+				Brightness = 0;
 			else
-				brightness = 1 - (pos.Y / h);
+				Brightness = 1 - (pos.Y / h);
 
 			if (ColorPicked != null) {
 				ColorPicked ();
