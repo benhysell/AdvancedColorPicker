@@ -28,6 +28,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 using AdvancedColorPicker;
+using System.Drawing;
 
 namespace AdvancedColorPickerDemo
 {
@@ -78,7 +79,8 @@ namespace AdvancedColorPickerDemo
 		UIBarButtonItem doneBtn;
 		void pickAColorBtn_HandleTouchUpInside (object sender, EventArgs e)
 		{
-			picker = new ColorPickerViewController();
+			var frame = new RectangleF (0, 500, 320,320);
+			picker = new ColorPickerViewController (frame);
 			picker.ColorPicked += HandleColorPicked;
 			picker.Title = "Pick a color!";
 			UINavigationController pickerNav = new UINavigationController(picker);

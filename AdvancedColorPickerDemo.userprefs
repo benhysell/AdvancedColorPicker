@@ -1,28 +1,28 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.ben’s iPhone" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AdvancedColorPickerDemo/AppDelegate.cs">
     <Files>
-      <File FileName="AdvancedColorPickerDemo/AppDelegate.cs" Line="6" Column="27" />
-      <File FileName="AdvancedColorPicker/ColorPickerViewController.cs" Line="165" Column="1" />
-      <File FileName="AdvancedColorPicker/HueIndicatorView.cs" Line="29" Column="30" />
-      <File FileName="AdvancedColorPicker/HuePickerView.cs" Line="29" Column="30" />
+      <File FileName="AdvancedColorPicker/HueIndicatorView.cs" Line="1" Column="1" />
+      <File FileName="AdvancedColorPicker/HuePickerView.cs" Line="1" Column="1" />
       <File FileName="AdvancedColorPicker/SatBrightIndicatorView.cs" Line="1" Column="1" />
-      <File FileName="AdvancedColorPicker/SaturationBrightnessPickerView.cs" Line="34" Column="1" />
-      <File FileName="AdvancedColorPicker/SelectedColorPreviewView.cs" Line="27" Column="30" />
-      <File FileName="AdvancedColorPickerDemo/ContainerController.cs" Line="23" Column="1" />
-      <File FileName="AdvancedColorPickerDemo/Main.cs" Line="23" Column="1" />
+      <File FileName="AdvancedColorPicker/SelectedColorPreviewView.cs" Line="1" Column="1" />
+      <File FileName="AdvancedColorPickerDemo/Main.cs" Line="1" Column="1" />
+      <File FileName="AdvancedColorPicker/SaturationBrightnessPickerView.cs" Line="1" Column="1" />
+      <File FileName="AdvancedColorPickerDemo/ContainerController.cs" Line="1" Column="1" />
+      <File FileName="AdvancedColorPickerDemo/AppDelegate.cs" Line="82" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="AdvancedColorPicker" expanded="True" />
-          <Node name="AdvancedColorPickerDemo" expanded="True" selected="True">
-            <Node name="References" expanded="True" />
-          </Node>
+          <Node name="AdvancedColorPickerDemo" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
         <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

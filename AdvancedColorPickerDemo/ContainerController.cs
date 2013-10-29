@@ -38,13 +38,8 @@ namespace AdvancedColorPickerDemo
 		{
 			return UIInterfaceOrientationMask.All;
 		}
-		
-		//gia symvatotita me ios 4/5
-		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
-		{
-			return true;
-		}
-		
+
+	
 		public override bool ShouldAutorotate ()
 		{
 			return true;
